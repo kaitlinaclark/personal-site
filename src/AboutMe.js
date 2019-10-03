@@ -9,11 +9,11 @@ function AboutMe() {
             <div className="col-md-6 col-sm-12">
                 <img src={image1} alt="Me" className="rounded-circle" height="400" width="400" />
             </div>
-            <div className="col-md-6 col-sm-12">
-                <p style={{textAlign:'center', fontFamily:"Georgia", fontStyle:'italic'}}>
-                <h2 style={{fontStyle:"normal"}}>About Me</h2>
-                <h4>I have never seen a greater monster or miracle in the world than myself</h4> </p>
-                <p>Hi! I am a third year undergraduate at Washington University in St. Louis 
+            <div className="col-md-6 col-sm-12"style={{textAlign:'center', fontFamily:"Georgia", fontStyle:'italic'}} >
+                
+                  <h2 style={{fontStyle:'normal'}}>About Me</h2>
+                <h4>I have never seen a greater monster or miracle in the world than myself</h4>
+                <p style={{fontStyle:'normal'}}>Hi! I am a third year undergraduate at Washington University in St. Louis 
                   School of Engineering pursuing a Bachelor of Science degree in Computer Science with a 
                   minor in Bioinformatics. I began working with the Clinical Interpretation of Variants in 
                   Cancer (CIViC) project as a Lab Assistant under the mentorship of Dr. Malachi Griffith as a first-year 

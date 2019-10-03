@@ -5,7 +5,7 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Footer from './Footer';
-import Geocode from "react-geocode";
+import Geocode from 'react-geocode';
  
 // set Google Maps Geocoding API for purposes of quota management. Its optional but recommended.
 Geocode.setApiKey("AIzaSyC1soN6m6TUODWQ71R4EBWzQCWPrdUlIkE");
@@ -13,21 +13,21 @@ Geocode.setApiKey("AIzaSyC1soN6m6TUODWQ71R4EBWzQCWPrdUlIkE");
 // Enable or disable logs. Its optional.
 Geocode.enableDebug();
 
-const AnyReactComponent = ({ text }) => (
-  <div className="any-react" style={{
-    color: 'white', 
-    background: 'grey',
-    padding: '15px 10px',
-    display: 'inline-flex',
-    textAlign: 'center',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: '100%',
-    transform: 'translate(-50%, -50%)'
-  }}>
-    {text}
-  </div>
-);
+// const AnyReactComponent = ({ text }) => (
+//   <div className="any-react" style={{
+//     color: 'white', 
+//     background: 'grey',
+//     padding: '15px 10px',
+//     display: 'inline-flex',
+//     textAlign: 'center',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//     borderRadius: '100%',
+//     transform: 'translate(-50%, -50%)'
+//   }}>
+//     {text}
+//   </div>
+// );
 class App extends React.Component {
   constructor(props){
     super(props);
@@ -93,20 +93,21 @@ class App extends React.Component {
         <div className="jumbotron">
           
           <AboutMe />
+          <hr></hr>
           <Portfolio />
           <hr></hr>
           <div className="container-fluid justify-content-center">
             <h2>Google Maps API</h2>
             <h4>Please enter a city you would like to see on the map</h4>
-            <div class="row justify-content-center">
-              <div class="col-8">
+            <div className="row justify-content-center">
+              <div className="col-8">
                   <input type="text" 
                   value={this.state.input_value} 
                   onChange={this.handleChange}
-                  class="form-control" placeholder="Search (e.g. Paris)"/>
+                  className="form-control" placeholder="Search (e.g. Paris)"/>
               </div>
-              <div class="col-4">
-                  <button type="submit" onClick={this.handleSubmit} class="btn btn-block btn-warning">Search</button>
+              <div className="col-4">
+                  <button type="submit" onClick={this.handleSubmit} className="btn btn-block btn-warning">Search</button>
               </div>
               
             </div>

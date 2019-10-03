@@ -7,9 +7,9 @@ import Project from './Project';
 class Portfolio extends Component{
     constructor(props){
         super(props)
-        this.state = [{
+        this.state = {
             project_list: projects
-        }]
+        }
         
     }
     render(){
@@ -19,12 +19,8 @@ class Portfolio extends Component{
                     <div className="col-md-6 col-sm-12" id="project_list">
                        { 
                            this.state.project_list.map(
-                               (project) => <Project id={project.id}
-                                                    name = {project.name}
-                                                    github = {project.github}
-                                                    site = {project.site}
-                               />
-                           )}
+                               (project) => <Project id={project.id} name={project.name} github={project.github} site={project.site}/>)
+                        }
                         
                     </div>
                 </div>
