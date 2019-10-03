@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './NavBar';
 import Home from './Home';
 import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
 import Footer from './Footer';
 import Geocode from "react-geocode";
 import GoogleMapReact from 'google-map-react';
@@ -93,6 +94,7 @@ class App extends React.Component {
         <div className="jumbotron">
           
           <AboutMe />
+          <Portfolio />
           <hr></hr>
           <div className="container-fluid justify-content-center">
             <h2>Google Maps API</h2>
