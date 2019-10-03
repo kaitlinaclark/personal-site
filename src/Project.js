@@ -10,12 +10,12 @@ class Project extends Componenet{
 
     render(){
         return (
-            <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" id={this.props.id}>
                 <div className="d-flex justify-content-between align-items-center w-100">
                     <input type="checkbox" className="form-check-input" ></input>
-                    <label className="form-check-label"  >hello there</label>
-                    <button className="btn btn-link" id="github">Github Link</button>
-                    <button className="btn btn-link" id="site">Live Site</button>
+                    <label className="form-check-label"  >{this.props.name}}</label>
+                    <button className="btn btn-link"  href={this.props.github}>Github Link</button>
+                    <button className="btn btn-link"  href={this.props.site}>Live Site</button>
                 </div>
             </div>
         );

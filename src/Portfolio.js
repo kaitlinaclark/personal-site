@@ -2,21 +2,35 @@ import React, {Component} from 'react';
 import './Portfolio.css';
 // import image1 from './files/clark_headshot.jpg';
 import projects from './files/list-of-pojects';
+import Project from './Project';
 
-function Portfolio() {
-  return (
-    <div className="container" id="portfolio">
-        <div className="row">
-            <div className="col-md-6 col-sm-12">
-                <p style={{textAlign:'center', fontFamily:"Georgia", fontStyle:'italic'}}>
-                <h2 style={{fontStyle:"normal"}}>Projects</h2>
-                 </p>
-                <p></p>
-                
+class Portfolio extends Componenet{
+    constructor(props){
+        super(props)
+        this.state = [{
+            project_list: projects
+        }]
+        
+    }
+    render(){
+        return (
+            <div className="container" id="portfolio">
+                <div className="row">
+                    <div className="col-md-6 col-sm-12" id="project_list">
+                       { 
+                           this.state.project_list.map(
+                               (project) => <Project id={project.id}
+                                                    name = {project.name}
+                                                    github = {project.github}
+                                                    site = {project.site}
+                               />
+                           )}
+                        
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-  );
+        );
+    }
 }
 
 export default Portfolio;
