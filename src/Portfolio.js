@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './Portfolio.css';
 // import image1 from './files/clark_headshot.jpg';
-import projects from './files/list-of-pojects';
+import projects from './files/list-of-projects';
 import Project from './Project';
 
-class Portfolio extends Componenet{
+class Portfolio extends Component{
     constructor(props){
         super(props)
         this.state = [{

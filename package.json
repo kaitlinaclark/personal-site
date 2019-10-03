@@ -1,21 +1,21 @@
 {
-  "name": "10-final-project-kclark",
-  "homepage": "https://wustlcse204.github.io/10-final-project-kclark",
+  "name": "personal-site",
+  "homepage": "https://kaitlinaclark.github.io/personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "google-map-react": "^1.1.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-geocode": "^0.1.2",
-    "react-scripts": "3.0.0"
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

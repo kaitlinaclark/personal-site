@@ -1,4 +1,4 @@
-projects = [
+var projects = [
     {
         id: 0,
         name: "TODO w/ React",
@@ -11,3 +11,5 @@ projects = [
     github: "",
     site: ""
 }]
+
+export default projects

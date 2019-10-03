@@ -1,5 +1,5 @@
 import React, {Componenet} from 'react';
-import 'Project.css';
+import './Project.css';
 
 class Project extends Componenet{
     constructor(props){
