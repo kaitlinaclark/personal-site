@@ -1,0 +1,16 @@
+*{
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.jumbotron{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.any-react:hover{
+  background: white;
+  color: black;
+  border-style: solid;
+  
+}
+
+
