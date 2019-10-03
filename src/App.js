@@ -6,7 +6,6 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Footer from './Footer';
 import Geocode from "react-geocode";
-import GoogleMapReact from 'google-map-react';
  
 // set Google Maps Geocoding API for purposes of quota management. Its optional but recommended.
 Geocode.setApiKey("AIzaSyC1soN6m6TUODWQ71R4EBWzQCWPrdUlIkE");
@@ -112,18 +111,7 @@ class App extends React.Component {
               
             </div>
           </div>
-          <div style={{width: '100%', height: '400px'}} id={"main"}>
-            <GoogleMapReact
-              bootstrapURLKeys={{key: 'AIzaSyC1soN6m6TUODWQ71R4EBWzQCWPrdUlIkE'}}
-              defaultCenter={this.props.center}
-              defaultZoom={this.props.zoom}
-          >
-          {
-            this.state.places.map( (plac) =>  <AnyReactComponent lat={plac.lat}  lng={plac.lng} text={plac.text} />)
-          }
-      
-          </GoogleMapReact>
-          </div>
+          
           <Footer />
         </div>
         
