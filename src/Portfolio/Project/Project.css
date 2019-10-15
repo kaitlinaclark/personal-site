@@ -1,8 +1,13 @@
-.project, .border{
+.project{
     padding: 0.5em;
     margin-right: 1em;
     display: inline-block;
+    width: 25em;
 }
 a{
     margin: 0.5em;
+}
+p{
+    word-break: break-all;
+    white-space: normal;
 }
