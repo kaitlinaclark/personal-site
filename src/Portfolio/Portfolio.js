@@ -15,15 +15,13 @@ class Portfolio extends Component{
     
     render(){
         return (
-            <div className="container" id="portfolio">
-                <div className="row">
-                    <div className="col-md-6 col-sm-12" id="project_list">
-                       { 
-                           projects.map(
-                               (project, i) => <Project key={i} id={project.id} name={project.name} github={project.github} site={project.site}/>)
-                        }
-                        
-                    </div>
+            <div className="container-fluid" id="portfolio">
+                <div className="d-flex col-lg-5 col-md-5 col-sm-12" id="project_list">
+                    { 
+                        projects.map(
+                            (project, i) => <Project key={i} id={project.id} name={project.name} github={project.github} site={project.site} langs={project.langs} d={project.description}/>)
+                    }
+                    
                 </div>
             </div>
         );

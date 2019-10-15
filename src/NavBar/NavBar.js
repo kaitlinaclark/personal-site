@@ -9,7 +9,7 @@ function NavBar() {
                 <ul className="navbar-nav">
                     <li><a className="nav-link" href="#home">Home</a></li>
                     <li><a className="nav-link" href="#aboutus">About Me</a></li>
-                    <li><a className="nav-link" href="https://github.com/kaitlinaclark?tab=repositories">Portfolio</a></li>           
+                    <li><a className="nav-link" href="#portfolio">Portfolio</a></li>           
                     <li><a className="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>

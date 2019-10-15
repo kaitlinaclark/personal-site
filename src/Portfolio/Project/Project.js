@@ -1,14 +1,16 @@
 import React, {Component } from 'react';
 import './Project.css';
+
 class Project extends Component {
    render(){
        return (
-        <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" id={this.props.id}>
-            <div className="d-flex justify-content-between align-items-center w-100">
-                <input type="checkbox" className="form-check-input" ></input>
-                <label className="form-check-label"  >{this.props.name}</label>
-                <button className="btn btn-link"  href={this.props.github} target="_blank">Github Link</button>
-                <button className="btn btn-link"  href={this.props.site} target="_blank">Live Site</button>
+        <div className="border border-info rounded project" id={this.props.id}>
+            <h3>{this.props.name}</h3>
+            <p>{this.props.d}</p>
+            <i>Languages used: {this.props.langs}</i>
+            <div className="d-flex justify-content-end align-items-center">
+                <a className="btn btn-primary btn-xs"  href={this.props.github} target="_blank">Github</a>
+                <a className="btn btn-primary btn-xs"  href={this.props.site} target="_blank">Live Site</a>
             </div>
         </div>
     );

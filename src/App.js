@@ -128,7 +128,7 @@ class App extends React.Component {
                   this.state.places.map( (plac, i) =>  <AnyReactComponent key={i} lat={plac.lat}  lng={plac.lng} text={plac.text} />)
                 }
         
-                </GoogleMapReact>
+              </GoogleMapReact>
             </div>
           </div>
 
