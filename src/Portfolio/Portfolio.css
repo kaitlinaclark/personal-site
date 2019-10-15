@@ -1,3 +1,6 @@
-#project-list{
-    margin: 0.5em;
+#portfolio {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
 }

@@ -4,7 +4,7 @@ import './Project.css';
 class Project extends Component {
    render(){
        return (
-        <div className="border border-info rounded project" id={this.props.id}>
+        <div className="border border-info rounded-right project">
             <h3>{this.props.name}</h3>
             <p>{this.props.d}</p>
             <i>Languages used: {this.props.langs}</i>
@@ -17,4 +17,4 @@ class Project extends Component {
    } 
 }
 
-export default Project;
+export default Project; 
