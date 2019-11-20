@@ -11,3 +11,6 @@ p{
     word-break: break-all;
     white-space: normal;
 }
+.card{
+    width: 18rem;
+}
