@@ -18,7 +18,7 @@ function Home() {
                   
               </div>
               <div className="row btn-bar justify-content-center">
-                <a href={file1} className="m-btn-link m-btn-link-white theme-after">Download Resume</a>
+                <a href={file1} className="btn btn-primary">Download Resume</a>
                 
               </div>
           </div>
