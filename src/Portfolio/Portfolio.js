@@ -5,7 +5,7 @@ import Project from './Project/Project';
 class Portfolio extends Component{
     render(){
         return (
-            <div className="w-100 border-right border-left border-info" id="portfolio">
+            <div className="container" id="portfolio">
                 { 
                     projects.map(
                         (project, i) => 
