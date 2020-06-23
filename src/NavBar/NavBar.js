@@ -10,8 +10,7 @@ function NavBar() {
                     <li><a className="nav-link" href="#home">Home</a></li>
                     <li><a className="nav-link" href="#aboutus">About Me</a></li>
                     <li><a className="nav-link" href="#portfolio">Portfolio</a></li>           
-                    <li><a className="nav-link" href="#contact">Connect</a></li>
-                    <li><a className="nav-link" href="mailto: kaitlinaclark@wustl.edu">Contact</a></li>
+                    <li><a className="nav-link" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
