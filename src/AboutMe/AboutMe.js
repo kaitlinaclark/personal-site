@@ -6,8 +6,8 @@ function AboutMe() {
   return (
     <div className="container" id="aboutus">
         <div className="row">
-            <div className="col-md-6 col-sm-12">
-                <img src={image1} alt="Me" className="rounded-circle" height="400" width="400" />
+            <div className="col-md-6 col-sm-12" width="device-width">
+                <img src={image1} alt="Me" className="rounded-circle" height="auto" width="100%" />
             </div>
             <div className="col-md-6 col-sm-12"style={{textAlign:'center', fontFamily:"Georgia", fontStyle:'italic'}} >
                 
