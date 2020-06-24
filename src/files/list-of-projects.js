@@ -26,7 +26,7 @@ var projects = [
     id: 4,
     name: "Virtual Calendar",
     github: "https://github.com/kaitlinaclark/simple-calendar",
-    site: null,
+    site: "http://ec2-18-220-33-4.us-east-2.compute.amazonaws.com/calendar/index.php",
     langs: "HTML/CSS, JavaScript, PHP, MySQL",
     description: "Simple JavaScript Calendar with ability to add/delete/edit events. MySQL database installed so calendars/events can be shared."
 },
