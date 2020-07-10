@@ -10,7 +10,7 @@ var projects = [
     id: 2,
     name: "Location-based Chat",
     github: "https://github.com/kaitlinaclark/geoloc",
-    site: null,
+    site: "http://ec2-3-17-28-133.us-east-2.compute.amazonaws.com/geoloc/",
     langs: "Angular, SocketIO, Google Maps API",
     description: "Ability to join chatrooms based on current location and communicate with people around you with some arbitrary username."
 },
@@ -18,7 +18,7 @@ var projects = [
     id: 3,
     name: "Chat Room",
     github: "https://github.com/kaitlinaclark/simple-chat",
-    site: null,
+    site: "http://ec2-3-17-28-133.us-east-2.compute.amazonaws.com/simple-chat/",
     langs: "HTML/CSS, Bootstrap, NodeJS",
     description: "Simple Chat Room with ability to communicate from different machines."
 },
@@ -26,31 +26,32 @@ var projects = [
     id: 4,
     name: "Virtual Calendar",
     github: "https://github.com/kaitlinaclark/simple-calendar",
-    site: "http://ec2-18-220-33-4.us-east-2.compute.amazonaws.com/calendar/index.php",
+    site: "http://ec2-3-17-28-133.us-east-2.compute.amazonaws.com/calendar/",
     langs: "HTML/CSS, JavaScript, PHP, MySQL",
     description: "Simple JavaScript Calendar with ability to add/delete/edit events. MySQL database installed so calendars/events can be shared."
 },
 {
+    id: 10,
+    name: "Brand Redesign (Trivago)",
+    github: "https://github.com/wustlcse204/trivago-brand-redesign",
+    site: "https://wustlcse204.github.io/trivago-brand-redesign/",
+    langs: "HTML/CSS, Bootstrap",
+    description: "Redesigned Trivago website to demonstrate understanding of UI development and importance of user experience."
+},
+{
     id: 12,
     name: "Image Gallery",
-    github: null,
+    github: "https://github.com/wustlcse204/07-image-gallery-kaitlinaclark",
     site: "https://wustlcse204.github.io/07-image-gallery-kaitlinaclark/",
     langs: "HTML/CSS, Bootstrap",
     description: "View a gallery of images. Click photos for full-screen view."
 },
-{
-    id: 10,
-    name: "Brand Redesign (Trivago)",
-    github: null,
-    site: "https://wustlcse204.github.io/06-brand-redesign-kaitlinaclark/",
-    langs: "HTML/CSS, Bootstrap",
-    description: "Redesigned Trivago website."
-},
+
 {
     id: 11,
     name: "Instagram Clone",
-    github: null,
-    site: "https://wustlcse204.github.io/05-instagram-clone-kaitlinaclark/",
+    github: "https://github.com/wustlcse204/instagram-clone/",
+    site: "https://wustlcse204.github.io/instagram-clone/",
     langs: "HTML/CSS, Bootstrap",
     description: "Front-end clone of 2009 version of Instagram Desktop site."
 },
@@ -60,7 +61,7 @@ var projects = [
     github: "https://github.com/kaitlinaclark/weather-widget",
     site: "https://kaitlinaclark.github.io/weather-widget",
     langs: "HTML/CSS, JavaScript",
-    description: "Randomized weather information accessed using course-provided API. Made in CSE 330 with Prof Todd Sproull (WUSTL 2017)."
+    description: "Randomized weather information accessed using course-provided API."
  },
  {
     id: 6,
